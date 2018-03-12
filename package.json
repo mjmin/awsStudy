@@ -1,0 +1,23 @@
+{
+  "name": "codlab-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node_modules/.bin/mocha api/users/user.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mysql2": "^1.5.2",
+    "sequelize": "^4.35.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.0.1",
+    "should": "^13.2.1",
+    "supertest": "^3.0.0"
+  }
+}
